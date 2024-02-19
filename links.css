@@ -21,19 +21,19 @@
 .links1-navlink1:hover {
   color: var(--dl-color-accent-100);
 }
-.links1-text {
-  transition: 0.3s;
-  text-decoration: none;
-}
-.links1-text:hover {
-  color: var(--dl-color-accent-100);
-}
 .links1-navlink2 {
-  color: var(--dl-color-important-text);
   transition: 0.3s;
   text-decoration: none;
 }
 .links1-navlink2:hover {
+  color: var(--dl-color-accent-100);
+}
+.links1-navlink3 {
+  color: var(--dl-color-important-text);
+  transition: 0.3s;
+  text-decoration: none;
+}
+.links1-navlink3:hover {
   color: var(--dl-color-accent-100);
 }
 
@@ -60,20 +60,20 @@
 .links-navlink1:hover {
   color: var(--dl-color-accent-100);
 }
-.links-text {
-  color: var(--dl-color-important-text);
-  transition: 0.3s;
-  text-decoration: none;
-}
-.links-text:hover {
-  color: var(--dl-color-accent-100);
-}
 .links-navlink2 {
   color: var(--dl-color-important-text);
   transition: 0.3s;
   text-decoration: none;
 }
 .links-navlink2:hover {
+  color: var(--dl-color-accent-100);
+}
+.links-navlink3 {
+  color: var(--dl-color-important-text);
+  transition: 0.3s;
+  text-decoration: none;
+}
+.links-navlink3:hover {
   color: var(--dl-color-accent-100);
 }
 .links-root-class-name {
