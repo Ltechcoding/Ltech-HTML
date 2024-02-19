@@ -4,17 +4,18 @@
     <title>Ltech's Website</title>
     <meta
       name="description"
-      content="Amateur web dev and coder who lives in Japan dealing with ADHD. I like nature, memes, and a lot of games."
+      content="Hya I'm Ltech and welcome to my website! I do funny things (adhd) and code stuff. I play games and enjoy books. I live in Japan and I know Java, HTML, and CSS. "
     />
     <meta property="og:title" content="Ltech's Website" />
     <meta
       property="og:description"
-      content="Amateur web dev and coder who lives in Japan dealing with ADHD. I like nature, memes, and a lot of games."
+      content="Hya I'm Ltech and welcome to my website! I do funny things (adhd) and code stuff. I play games and enjoy books. I live in Japan and I know Java, HTML, and CSS. "
     />
     <meta
       property="og:image"
       content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/f232adc1-7887-47f0-859a-87119182a8a2/b58f2521-1a0a-406b-a32b-22010b3c02a7?org_if_sml=1&amp;force_format=original"
     />
+    <meta name="robots" content="noindex" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <meta property="twitter:card" content="summary_large_image" />
@@ -24,7 +25,7 @@
     </style>
     <style data-tag="default-style-sheet">
       html {
-        font-family: Inter;
+        font-family: "Exo 2";
         font-size: 16px;
       }
 
@@ -41,14 +42,53 @@
       }
     </style>
     <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
       rel="shortcut icon"
-      href="public/ltechfavicon.png"
+      href="/ltechfavicon.png"
       type="icon/png"
       sizes="32x32"
     />
     <link
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
       data-tag="font"
     />
     <link
@@ -78,15 +118,26 @@
         <section id="top" class="home-hero">
           <div class="home-menu">
             <div id="mobile-menu" class="home-mobile-navigation">
-              <img
-                alt="pastedImage"
-                src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
-                class="home-logo"
-              />
-              <div class="home-links">
-                <span class="Link">Solutions</span>
-                <span class="Link">How it works</span>
-                <span class="Link">Prices</span>
+              <a href="index.html" class="home-navlink">
+                <img
+                  alt="pastedImage"
+                  srcset="/ltechlogo-1500h.webp 1200w, /ltechlogo-tablet.webp 800w, /ltechlogo-mobile.webp 480w"
+                  sizes="(min-width: 992px) 1200px, (min-width: 768px) 800px, 480px"
+                  src="public/ltechlogo-1500h.webp"
+                  class="home-logo"
+                />
+              </a>
+              <div class="links1-links">
+                <a href="index.html" class="links1-navlink Link">
+                  <span>Home</span>
+                </a>
+                <a href="about.html" class="links1-navlink1 Link">
+                  <span>About</span>
+                </a>
+                <span class="links1-text Link"><span>Links</span></span>
+                <a href="news.html" class="links1-navlink2 Link">
+                  <span>News</span>
+                </a>
               </div>
               <div id="close-mobile-menu" class="home-close-mobile-menu">
                 <svg viewBox="0 0 804.5714285714286 1024" class="home-icon">
@@ -99,10 +150,13 @@
             <div class="home-desktop-navigation">
               <nav id="nav" class="home-centered">
                 <div class="home-left">
-                  <a href="index.html" class="home-navlink">
+                  <a href="index.html" class="home-navlink1">
                     <img
                       alt="Ltech's pfp"
-                      src="public/ltechlogo-200h.png"
+                      srcset="/ltechlogo-1500h.webp 1200w, /ltechlogo-tablet.webp 800w, /ltechlogo-mobile.webp 480w"
+                      sizes="(min-width: 992px) 1200px, (min-width: 768px) 800px, 480px"
+                      src="public/ltechlogo-1500h.webp"
+                      loading="eager"
                       class="home-logo1"
                     />
                   </a>
@@ -114,10 +168,8 @@
                   <a href="about.html" class="links-navlink1 Link">
                     <span>About</span>
                   </a>
-                  <a href="links.html" class="links-navlink2 Link">
-                    <span>Links</span>
-                  </a>
-                  <a href="news.html" class="links-navlink3 Link">
+                  <span class="links-text Link"><span>Links</span></span>
+                  <a href="news.html" class="links-navlink2 Link">
                     <span>News</span>
                   </a>
                 </div>
@@ -160,38 +212,42 @@
             </div>
           </div>
           <header class="home-header">
-            <h1 class="home-text03">Ltech</h1>
-            <p class="home-text04">
+            <h1 class="home-text">Ltech</h1>
+            <p class="home-text1">
               Amateur web dev and coder who lives in Japan dealing with ADHD. I
               like nature, memes, and a lot of games.
             </p>
-            <a href="about.html" class="home-navlink1">
+            <a href="about.html" class="home-navlink2">
               <div class="home-about">
-                <span class="home-text05">About →</span>
+                <span class="home-text2">About →</span>
               </div>
             </a>
           </header>
         </section>
         <div class="home-hero1">
           <div class="home-container3">
-            <h1 class="home-text06">Join my discord Server</h1>
-            <span class="home-text07">
+            <h1 class="home-text3">Join my discord Server</h1>
+            <span class="home-text4">
               Need to contact me? Join my discord and DM me
             </span>
-            <div class="home-btn-group">
-              <button class="home-button button">Get Started</button>
-              <button class="home-button1 button">Learn More</button>
+            <div class="home-btn-group"></div>
+          </div>
+          <div class="home-container4">
+            <div class="home-container5">
+              <iframe
+                src="https://ptb.discord.com/widget?id=1055901360056442930&amp;theme=dark"
+                width="350"
+                height="500"
+                allowtransparency="true"
+                frameborder="0"
+                sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+              ></iframe>
             </div>
           </div>
-          <img
-            alt="image"
-            src="https://images.unsplash.com/photo-1525498128493-380d1990a112?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI0fHxtaW5pbWFsaXNtJTIwZ3JlZW58ZW58MHx8fHwxNjI1ODQxMDcw&amp;ixlib=rb-1.2.1&amp;h=1200"
-            class="home-image"
-          />
         </div>
-        <h1 class="home-text08">News</h1>
+        <h1 class="home-text5">News</h1>
         <div class="home-blog">
-          <div class="home-container4">
+          <div class="home-container6">
             <div
               class="blog-post-card1-blog-post-card blog-post-card1-root-class-name3"
             >
@@ -219,7 +275,7 @@
                   <div class="blog-post-card1-profile">
                     <img
                       alt="Ltech pfp"
-                      src="public/ltechround-200h.png"
+                      src="public/ltechround-200h.webp"
                       image_src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fG1hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTYyNjQzMTMwMw&amp;ixlib=rb-1.2.1&amp;h=1200"
                       class="blog-post-card1-image1"
                     />
@@ -228,13 +284,13 @@
                     </span>
                   </div>
                   <span class="blog-post-card1-text4">
-                    <span>5 min read</span>
+                    <span>1991/2/20</span>
                   </span>
                 </div>
               </div>
             </div>
           </div>
-          <div class="home-container5">
+          <div class="home-container7">
             <div
               class="blog-post-card1-blog-post-card blog-post-card1-root-class-name2"
             >
@@ -262,7 +318,7 @@
                   <div class="blog-post-card1-profile">
                     <img
                       alt="Ltech pfp"
-                      src="public/ltechround-200h.png"
+                      src="public/ltechround-200h.webp"
                       image_src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fG1hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTYyNjQzMTMwMw&amp;ixlib=rb-1.2.1&amp;h=1200"
                       class="blog-post-card1-image1"
                     />
@@ -271,27 +327,25 @@
                     </span>
                   </div>
                   <span class="blog-post-card1-text4">
-                    <span>5 min read</span>
+                    <span>1991/2/20</span>
                   </span>
                 </div>
               </div>
             </div>
           </div>
-          <div class="home-container6">
+          <div class="home-container8">
             <div
               class="blog-post-card1-blog-post-card blog-post-card1-root-class-name1"
             >
               <img
                 alt="image"
-                src="https://images.unsplash.com/photo-1464938050520-ef2270bb8ce8?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE4fHxjaXR5fGVufDB8fHx8MTYyNjQ1MDI4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
+                src="https://cdn.discordapp.com/attachments/1056010857043198033/1186740348005920798/image.png?ex=65945913&amp;is=6581e413&amp;hm=c0efba23ac1eed594d6093f53e6b59a5edde0ca740fefe60ba3b2db859c3a51c&amp;"
                 class="blog-post-card1-image"
               />
               <div class="blog-post-card1-container">
-                <span class="blog-post-card1-text">
-                  <span>ENTERPRISE</span>
-                </span>
+                <span class="blog-post-card1-text"><span>RELEASE</span></span>
                 <span class="blog-post-card1-text1">
-                  <span>Lorem ipsum dolor sit amet</span>
+                  <span>Ltech's Website beta</span>
                 </span>
                 <span class="blog-post-card1-text2">
                   <span>
@@ -305,7 +359,7 @@
                   <div class="blog-post-card1-profile">
                     <img
                       alt="Ltech pfp"
-                      src="public/ltechround-200h.png"
+                      src="public/ltechround-200h.webp"
                       image_src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fG1hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTYyNjQzMTMwMw&amp;ixlib=rb-1.2.1&amp;h=1200"
                       class="blog-post-card1-image1"
                     />
@@ -314,7 +368,7 @@
                     </span>
                   </div>
                   <span class="blog-post-card1-text4">
-                    <span>5 min read</span>
+                    <span>2023/12/19</span>
                   </span>
                 </div>
               </div>
@@ -329,11 +383,9 @@
               <span>Last Update: 2023/12/17 | Version: 2.5.8</span>
             </span>
           </div>
-          <a href="#top" class="home-link">
-            <div class="home-get-started">
-              <span class="home-text09">↑ Back to top</span>
-            </div>
-          </a>
+          <div class="home-get-started">
+            <span class="home-text6">↑ Back to top</span>
+          </div>
         </footer>
       </div>
     </div>

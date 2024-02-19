@@ -21,20 +21,20 @@
 .links-navlink1:hover {
   color: var(--dl-color-accent-100);
 }
+.links-text {
+  color: var(--dl-color-important-text);
+  transition: 0.3s;
+  text-decoration: none;
+}
+.links-text:hover {
+  color: var(--dl-color-accent-100);
+}
 .links-navlink2 {
   color: var(--dl-color-important-text);
   transition: 0.3s;
   text-decoration: none;
 }
 .links-navlink2:hover {
-  color: var(--dl-color-accent-100);
-}
-.links-navlink3 {
-  color: var(--dl-color-important-text);
-  transition: 0.3s;
-  text-decoration: none;
-}
-.links-navlink3:hover {
   color: var(--dl-color-accent-100);
 }
 .links-root-class-name {
@@ -62,6 +62,42 @@
   margin-left: 0px;
 }
 .links-root-class-name4 {
+  right: 0px;
+  bottom: 39px;
+  position: absolute;
+  margin-left: 0px;
+}
+.links-root-class-name5 {
+  right: 0px;
+  bottom: 39px;
+  position: absolute;
+  margin-left: 0px;
+}
+.links-root-class-name6 {
+  right: 0px;
+  bottom: 39px;
+  position: absolute;
+  margin-left: 0px;
+}
+.links-root-class-name7 {
+  right: 0px;
+  bottom: 39px;
+  position: absolute;
+  margin-left: 0px;
+}
+.links-root-class-name8 {
+  right: 0px;
+  bottom: 39px;
+  position: absolute;
+  margin-left: 0px;
+}
+.links-root-class-name9 {
+  right: 0px;
+  bottom: 39px;
+  position: absolute;
+  margin-left: 0px;
+}
+.links-root-class-name10 {
   right: 0px;
   bottom: 39px;
   position: absolute;

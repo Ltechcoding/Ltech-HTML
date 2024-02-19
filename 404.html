@@ -4,28 +4,28 @@
     <title>Page - Ltech's Website</title>
     <meta
       name="description"
-      content="Amateur web dev and coder who lives in Japan dealing with ADHD. I like nature, memes, and a lot of games."
+      content="Hya I'm Ltech and welcome to my website! I do funny things (adhd) and code stuff. I play games and enjoy books. I live in Japan and I know Java, HTML, and CSS. "
     />
     <meta property="og:title" content="Page - Ltech's Website" />
     <meta
       property="og:description"
-      content="Amateur web dev and coder who lives in Japan dealing with ADHD. I like nature, memes, and a lot of games."
+      content="Hya I'm Ltech and welcome to my website! I do funny things (adhd) and code stuff. I play games and enjoy books. I live in Japan and I know Java, HTML, and CSS. "
     />
     <meta
       property="og:image"
       content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/f232adc1-7887-47f0-859a-87119182a8a2/b58f2521-1a0a-406b-a32b-22010b3c02a7?org_if_sml=1&amp;force_format=original"
     />
+    <meta name="robots" content="noindex" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <meta property="twitter:card" content="summary_large_image" />
-    <meta http-equiv="refresh" content="0; URL=https://1ltech.github.io/" />
 
     <style data-tag="reset-style-sheet">
       html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
     </style>
     <style data-tag="default-style-sheet">
       html {
-        font-family: Inter;
+        font-family: "Exo 2";
         font-size: 16px;
       }
 
@@ -42,14 +42,53 @@
       }
     </style>
     <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
       rel="shortcut icon"
-      href="public/ltechfavicon.png"
+      href="/ltechfavicon.png"
       type="icon/png"
       sizes="32x32"
     />
     <link
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
       data-tag="font"
     />
     <link
@@ -79,15 +118,26 @@
         <section id="top" class="page-hero">
           <div class="page-menu">
             <div id="mobile-menu" class="page-mobile-navigation">
-              <img
-                alt="pastedImage"
-                src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
-                class="page-logo"
-              />
-              <div class="page-links">
-                <span class="Link">Solutions</span>
-                <span class="Link">How it works</span>
-                <span class="Link">Prices</span>
+              <a href="index.html" class="page-navlink">
+                <img
+                  alt="pastedImage"
+                  srcset="/ltechlogo-1500h.webp 1200w, /ltechlogo-tablet.webp 800w, /ltechlogo-mobile.webp 480w"
+                  sizes="(min-width: 992px) 1200px, (min-width: 768px) 800px, 480px"
+                  src="public/ltechlogo-1500h.webp"
+                  class="page-logo"
+                />
+              </a>
+              <div class="links1-links">
+                <a href="index.html" class="links1-navlink Link">
+                  <span>Home</span>
+                </a>
+                <a href="about.html" class="links1-navlink1 Link">
+                  <span>About</span>
+                </a>
+                <span class="links1-text Link"><span>Links</span></span>
+                <a href="news.html" class="links1-navlink2 Link">
+                  <span>News</span>
+                </a>
               </div>
               <div id="close-mobile-menu" class="page-close-mobile-menu">
                 <svg viewBox="0 0 804.5714285714286 1024" class="page-icon">
@@ -100,10 +150,13 @@
             <div class="page-desktop-navigation">
               <nav id="nav" class="page-centered">
                 <div class="page-left">
-                  <a href="index.html" class="page-navlink">
+                  <a href="index.html" class="page-navlink1">
                     <img
                       alt="Ltech's pfp"
-                      src="public/ltechlogo-200h.png"
+                      srcset="/ltechlogo-1500h.webp 1200w, /ltechlogo-tablet.webp 800w, /ltechlogo-mobile.webp 480w"
+                      sizes="(min-width: 992px) 1200px, (min-width: 768px) 800px, 480px"
+                      src="public/ltechlogo-1500h.webp"
+                      loading="eager"
                       class="page-logo1"
                     />
                   </a>
@@ -115,10 +168,8 @@
                   <a href="about.html" class="links-navlink1 Link">
                     <span>About</span>
                   </a>
-                  <a href="links.html" class="links-navlink2 Link">
-                    <span>Links</span>
-                  </a>
-                  <a href="news.html" class="links-navlink3 Link">
+                  <span class="links-text Link"><span>Links</span></span>
+                  <a href="news.html" class="links-navlink2 Link">
                     <span>News</span>
                   </a>
                 </div>
@@ -161,8 +212,8 @@
             </div>
           </div>
           <header class="page-header">
-            <h1 class="page-text3">404 - Not found</h1>
-            <p class="page-text4">
+            <h1 class="page-text">404 - Not found</h1>
+            <p class="page-text1">
               Uhhh, this is awkward. You know me, either I forgot something or
               you got the wrong URL.
             </p>
@@ -178,7 +229,7 @@
           </div>
           <a href="#top" class="page-link">
             <div class="page-get-started">
-              <span class="page-text5">↑ Back to top</span>
+              <span class="page-text2">↑ Back to top</span>
             </div>
           </a>
         </footer>
