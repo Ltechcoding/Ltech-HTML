@@ -540,6 +540,9 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
+.home-link {
+  display: contents;
+}
 .home-get-started {
   color: white;
   cursor: pointer;
