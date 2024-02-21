@@ -309,17 +309,13 @@
   font-weight: 700;
   line-height: 80px;
 }
-.links-text01 {
+.links-text1 {
   color: rgb(238, 233, 254);
   font-size: 20px;
   max-width: 600px;
   margin-top: 16px;
   text-align: center;
   line-height: 30px;
-}
-.links-link {
-  align-self: center;
-  text-decoration: none;
 }
 .links-footer {
   width: 100%;
@@ -334,7 +330,7 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
-.links-link1 {
+.links-link {
   display: contents;
 }
 .links-get-started {
@@ -357,7 +353,7 @@
   color: black;
   background-color: #ffffff;
 }
-.links-text35 {
+.links-text2 {
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -453,7 +449,7 @@
     font-weight: 700;
     line-height: 36px;
   }
-  .links-text01 {
+  .links-text1 {
     color: rgb(238, 233, 254);
     font-size: 16px;
     margin-top: var(--dl-space-space-unit);
@@ -483,7 +479,7 @@
     align-items: center;
     justify-content: center;
   }
-  .links-text01 {
+  .links-text1 {
     color: #EEE9FE;
   }
   .links-footer {
