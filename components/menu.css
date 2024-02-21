@@ -239,6 +239,9 @@
 }
 
 
+.menu-text {
+  margin-left: var(--dl-space-space-halfunit);
+}
 .menu-right {
   height: 100%;
   display: flex;
