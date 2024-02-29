@@ -13,28 +13,25 @@
 .links-navlink:hover {
   color: var(--dl-color-accent-100);
 }
-.links-navlink1 {
+.links-text {
   color: var(--dl-color-important-text);
   transition: 0.3s;
-  text-decoration: none;
 }
-.links-navlink1:hover {
+.links-text:hover {
   color: var(--dl-color-accent-100);
 }
-.links-navlink2 {
+.links-text1 {
   color: var(--dl-color-important-text);
   transition: 0.3s;
-  text-decoration: none;
 }
-.links-navlink2:hover {
+.links-text1:hover {
   color: var(--dl-color-accent-100);
 }
-.links-navlink3 {
+.links-text2 {
   color: var(--dl-color-important-text);
   transition: 0.3s;
-  text-decoration: none;
 }
-.links-navlink3:hover {
+.links-text2:hover {
   color: var(--dl-color-accent-100);
 }
 .links-root-class-name {
@@ -98,6 +95,18 @@
   margin-left: 0px;
 }
 .links-root-class-name10 {
+  right: 0px;
+  bottom: 39px;
+  position: absolute;
+  margin-left: 0px;
+}
+.links-root-class-name11 {
+  right: 0px;
+  bottom: 39px;
+  position: absolute;
+  margin-left: 0px;
+}
+.links-root-class-name12 {
   right: 0px;
   bottom: 39px;
   position: absolute;
