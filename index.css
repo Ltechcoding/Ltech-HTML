@@ -433,9 +433,6 @@
   text-align: center;
   line-height: 30px;
 }
-.home-navlink2 {
-  display: contents;
-}
 .home-about {
   color: white;
   cursor: pointer;
@@ -449,7 +446,6 @@
   padding-right: var(--dl-space-space-twounits);
   flex-direction: column;
   padding-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
   background-color: #000000;
 }
 .home-about:hover {
